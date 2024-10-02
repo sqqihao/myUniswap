@@ -6,7 +6,7 @@ const { privateKey, WETHContractAddr, uniFactoryAddr, uniRouter, erc20Addr,erc20
 const ALCHEMY_SEPOLIA_URL = "http://localhost:8545";
 const provider = new ethers.JsonRpcProvider(ALCHEMY_SEPOLIA_URL)
 // 本地hardhat私钥
-// const privateKey = 'ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80';
+// const privateKey = 'xxxxxxxxxxxxxxxxxxxxxxxx';
 const wallet = new ethers.Wallet(privateKey, provider)
 
 
