@@ -13,7 +13,7 @@ const provider = new ethers.JsonRpcProvider(ALCHEMY_SEPOLIA_URL)
 const FactoryContractAddr = uniFactoryAddr;
 
 // 本地hardhat私钥
-// const privateKey = 'ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80';
+// const privateKey = 'xxxxxxxxxxxxxxxxxxxxxxxx';
 const wallet = new ethers.Wallet(privateKey, provider)
 
 
