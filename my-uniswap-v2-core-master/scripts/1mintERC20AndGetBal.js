@@ -12,7 +12,7 @@
 	// const WETHContractAddr = "0x162A433068F51e18b7d13932F27e66a3f99E6890";
 
 	// 本地hardhat私钥
-	// const privateKey = 'ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80';
+	// const privateKey = 'xxxxxxxxxxxxxxxxxxxxxxxx';
 	const wallet = new ethers.Wallet(privateKey, provider)
 	
 	//NFT的ABI
